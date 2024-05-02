@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: useJdbc
+
+  datasource:
+    jdbc-url: jdbc:mysql://localhost:3306/book
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
